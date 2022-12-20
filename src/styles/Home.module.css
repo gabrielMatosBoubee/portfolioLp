@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.desc {
+    color: #42446E;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 70px;
+   }
+   
+   .Name {
+    margin: 10px;
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -1px;
+   }
+   
+   .img {
+     max-height: 300px;
+     max-width: 300px;
+     height: 300px;
+     width: 300px;
+     border-radius: 175px;
+     border-width: 10px;
+     border-style: solid;
+     border-image: linear-gradient(180deg, #E70FAA, #00C0FD) 1;
+     background: linear-gradient(#E70FAA, #00C0FD);
+   }
