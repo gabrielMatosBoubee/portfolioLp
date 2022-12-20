@@ -1,10 +1,20 @@
 .Header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
+.menu {
+ display: none;
+}
+
+label {
+    display: none;
+}
+
+
 .links {
+    
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -14,4 +24,98 @@
     color: black;
     margin: 5px 15px 5px 0;
     text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+   
+    label {
+        display: block;
+    }
+
+
+   .Header {
+    justify-content: flex-start;
+   }
+
+    .t {
+        display: block;
+        margin-left: auto;
+        margin-right: auto 
+    }
+
+    .linksInside {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .linksInside a {
+        padding: 10px;
+    }
+
+    .links {
+    background: #fff;
+    top: 0;
+    justify-content: space-around;
+    height: 100vh;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-450%);
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 5px 0px 10px 0px #aaa;
+    opacity: 0.90;
+    position: fixed;
+    z-index: 1;
+    }
+    
+    .hamburgerLines .line1 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+}
+
+.hamburgerLines .line2 {
+    transition: transform 0.2s ease-in-out;
+}
+
+.hamburgerLines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.hamburgerLines {
+    display: block;
+    height: 23px;
+    width: 30px;
+    color: black;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.hamburgerLines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #333;
+  }
+
+
+  input[type='checkbox']:checked ~ aside {
+      transform: translateX(-25%);
+    }
+    
+    input[type="checkbox"]:checked + label .hamburgerLines .line2 {
+    transform: scaleY(0);
+}
+
+ input[type="checkbox"]:checked + label .hamburgerLines .line3 {
+    transform: rotate(-40deg);
+} 
+ input[type="checkbox"]:checked + label .hamburgerLines .line1 {
+  transform: rotate(40deg);
+}
+
 }
