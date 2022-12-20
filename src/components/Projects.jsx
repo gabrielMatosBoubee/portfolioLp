@@ -23,10 +23,18 @@ function Projects() {
                         {`Tech stacks: ${project.stacks}`}
                     </p>
                     <span className={styles.projectLinks}>
-                      <a href={project.site} className={styles.projectLink}>
+                      <a 
+                      href={project.site} 
+                      className={styles.projectLink}
+                      target="_blank" 
+                      rel="noreferrer">
                           <img src={link} alt="link" /> Live Preview
                       </a>
-                      <a href={project.site} className={styles.projectLink}>
+                      <a 
+                      href={project.site} 
+                      className={styles.projectLink}
+                      target="_blank" 
+                      rel="noreferrer">
                           <img src={github} alt="link" /> View Code
                       </a>
                     </span>
