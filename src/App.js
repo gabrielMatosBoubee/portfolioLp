@@ -1,12 +1,12 @@
 import './App.css';
-import Layout from './components/Layout';
 import MainPage from './components/MainPage';
-
+import {BrowserRouter, Route} from 'react-browser-router'
+ 
 function App() {
   return (
-   <Layout>
-    <MainPage />
-   </Layout>
+    <BrowserRouter>
+    <Route path='/' component={ MainPage } />
+    </BrowserRouter>
   );
 }
 
