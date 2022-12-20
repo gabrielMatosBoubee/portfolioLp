@@ -4,8 +4,8 @@ import styles from '../styles/Home.module.css'
 
 function Home() {
     return (
-        <div>
-            <p className={styles.desc}>Hi 👋,My name is 
+        <div className={styles.Home}>
+            <p className={styles.desc}>Hi 👋, My name is 
                 <strong className={ styles.Name }>Gabriel Boubee</strong> 
                 I build things for web
             </p>

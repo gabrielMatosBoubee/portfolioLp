@@ -1,0 +1,31 @@
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personalInformation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 80%; */
+    width: 60%;
+}
+
+.upperFooter::after {
+    content: '';
+    height: 2px;
+    display: block;
+    background-color: rgba(102, 102, 102, 1);
+    margin: 20px 0 20px 0;
+    width: 100%;
+}
+
+.downFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
