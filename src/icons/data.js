@@ -8,6 +8,6 @@ import html from './vscode-icons_file-type-html.svg';
 import javaScript from './vscode-icons_file-type-js-official.svg';
 import vscode from './vscode-icons_file-type-vscode.svg';
 
-const data = [html, css, javaScript, react, redux, react, git, vscode, github, bootstrap]
+const data = [html, css, javaScript, react, redux, git, vscode, github, bootstrap]
 
 export default data;
