@@ -1,14 +1,18 @@
 .information {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .personalInformation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* max-width: 80%; */
-    width: 60%;
+    flex-wrap: wrap;
+}
+
+.personalItens {
+    margin: 0 5px 0 5px;
 }
 
 .upperFooter::after {
@@ -22,6 +26,8 @@
 
 .downFooter {
     display: flex;
+    align-items: center;
+    margin-bottom: 5px;
     justify-content: space-between;
 }
 

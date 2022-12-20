@@ -10,8 +10,8 @@ function Footer() {
                 <span className={styles.information}>
                   <h3>Boubee</h3>
                   <span className={styles.personalInformation}>
-                    <p>+351 930 583 670</p>
-                    <p>gm.boubee@gmail.com</p>
+                    <p className={styles.personalItens}>+351 930 583 670</p>
+                    <p className={styles.personalItens}>gm.boubee@gmail.com</p>
                     <LinksOutside />
                   </span>
                 </span>
