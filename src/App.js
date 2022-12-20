@@ -5,14 +5,18 @@ import {BrowserRouter, Route} from 'react-router-dom'
 import Layout from './components/Layout';
 import Home from './components/Home';
 import Technologies from './components/Technologies';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
  
 function App() {
   return (
     <BrowserRouter>
       <div>
       <Route exact path='/' component={ MainPage } />
-      <Route path='/home'render={ () => (<Layout><Home /> </Layout>) } /> 
+      <Route path='/home'render={ () => (<Layout><Home /></Layout>) } /> 
       <Route path='/techStacks' render={ () => (<Layout><Technologies /></Layout>) } />
+      <Route path='/projects' render={() => (<Layout><Projects /></Layout>)} />
+      <Route path='/contact' render={() => (<Layout><Contact /></Layout>)} />
       </div>
     </BrowserRouter>
   );

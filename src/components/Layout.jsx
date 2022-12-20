@@ -4,7 +4,7 @@ import Header from './Header';
 
 function Layout({ children }) {
     return (
-    <div style={{'margin': '1% 5% 1% 5%'}}>
+    <div className='layout'>
         <Header />
         <div>
           {children}
