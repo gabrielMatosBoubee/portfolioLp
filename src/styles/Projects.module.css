@@ -1,5 +1,5 @@
 .Title {
-    color: rgba(66, 68, 110, 1);
+    color: var(--titleColor);
   }
   
 .Text {
@@ -27,11 +27,15 @@
     box-sizing: border-box;
     max-width: 373px;
     min-height: 567px;
-    background: #FFFFFF;
     box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: var(--cardColor);
     text-align: center;
+  }
+
+  .projectTittle {
+    font-size: 28px;
+    color: var(--cardTittleColor);
   }
   
   .projectImg {

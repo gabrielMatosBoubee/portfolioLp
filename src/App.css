@@ -1,3 +1,19 @@
+:root {
+  --bodyColor: #F5F5F5;
+  --titleColor: #42446E;
+  --linksColor: rgba(167, 167, 167, 1);
+  --cardColor: rgba(255, 255, 255, 1);
+  --cardTittleColor: rgba(0, 0, 0, 1);
+  --boxShadowMenu: 5px 0px 10px 0px #aaa;
+  --linksMenuColor: #fff;
+  --linesHamburgue: #333;
+}
+
+body {
+  transition: 0.5s;
+  background-color: var(--bodyColor);
+}
+
 .App {
   text-align: center;
 }

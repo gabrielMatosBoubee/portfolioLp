@@ -5,7 +5,7 @@
   }
 
 .Title {
-    color: rgba(66, 68, 110, 1);
+    color: var(--titleColor);
   }
   
 .Text {

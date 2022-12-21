@@ -17,7 +17,7 @@ function Projects() {
                      src={project.image} 
                      alt={project.title} 
                     />
-                    <h3 style={{'fontSize': '28px'}}>{project.title}</h3>
+                    <h3 className={styles.projectTittle}>{project.title}</h3>
                     <p className={styles.projectText}>{project.text}</p>
                     <p className={styles.projectStacks}>
                         {`Tech stacks: ${project.stacks}`}

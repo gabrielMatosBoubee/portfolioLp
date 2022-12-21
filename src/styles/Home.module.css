@@ -7,7 +7,7 @@
 }
 
 .desc {
-    color: #42446E;
+    color: var(--titleColor);
     width: 60%;
     font-family: Poppins;
     font-style: normal;
