@@ -50,10 +50,6 @@ label {
     .linksInside a {
         padding: 10px;
     }
-/* 
-    .link {
-        color: black;
-    } */
 
     .links {
     background: var(--linksMenuColor);
@@ -89,7 +85,6 @@ label {
     display: block;
     height: 23px;
     width: 30px;
-    color: black;
     position: relative;
     z-index: 2;
     display: flex;
