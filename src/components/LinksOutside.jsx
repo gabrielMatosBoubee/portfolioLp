@@ -8,7 +8,7 @@ function LinksOutside() {
           <a
           style={{'margin': '5px'}} 
           href="https://www.linkedin.com/in/gabriel-matos-boubee/"
-          target="_blank" rel="noreferrer">
+          target="_blank" rel="noopener noreferrer">
             <img src={linkedinIcon} alt="linkedin link" />
           </a>
           <a 

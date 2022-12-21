@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Technologies from './components/Technologies';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import About from './components/About';
  
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div>
       <Route exact path='/' component={ MainPage } />
       <Route path='/home'render={ () => (<Layout><Home /></Layout>) } /> 
+      <Route path='/about' render={ () => (<Layout><About /></Layout>) } />
       <Route path='/techStacks' render={ () => (<Layout><Technologies /></Layout>) } />
       <Route path='/projects' render={() => (<Layout><Projects /></Layout>)} />
       <Route path='/contact' render={() => (<Layout><Contact /></Layout>)} />

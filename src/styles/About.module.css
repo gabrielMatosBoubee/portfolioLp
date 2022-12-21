@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.title {
+    color: #42446E;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    font-family: Poppins;
+}
+
+.AboutMe {
+    width: 60%;
+}
+
+.infoEdu {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.infoEduContainer {
+    width: 60%;
+}
+
+.infoEduContainer::after {
+    content: '';
+    height: 2px;
+    display: block;
+    align-self: flex-end;
+    background-color: rgba(102, 102, 102, 1);
+    margin: 20px 0 20px 0;
+    width: 100%;
+}
+
+.titleEdu {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: rgba(102, 102, 102, 1);
+}
+
+.organization {
+    color: rgba(167, 167, 167, 1);
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 3px;
+    color: rgba(1, 140, 15, 1);
+    background-color: rgba(215, 255, 224, 1);
+}
+
+.period {
+    color: rgba(167, 167, 167, 1);
+}
+
+.AboutText {
+    color: rgba(102, 102, 102, 1);
+}
+
+@media (max-width: 600px) {
+    
+    .AboutMe {
+       width: 100%;
+    }
+
+    .infoEduContainer {
+        width: 100%;
+    }
+
+}

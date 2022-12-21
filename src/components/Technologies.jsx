@@ -10,7 +10,7 @@ function Technologies() {
                 <p className={styles.Text}>
                     Technologies I've been working with recently
                 </p>
-                <div>
+                <div className={styles.stacks}>
                 {icons.map((icon, index) => <img src={ icon } alt="icon" key={index} />)}
                 </div>
             </section>

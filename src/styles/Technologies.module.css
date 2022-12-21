@@ -11,3 +11,10 @@
 .Text {
     color: rgba(102, 102, 102, 1);
   }
+ 
+.stacks {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

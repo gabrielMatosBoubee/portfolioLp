@@ -27,14 +27,14 @@ function Projects() {
                       href={project.site} 
                       className={styles.projectLink}
                       target="_blank" 
-                      rel="noreferrer">
+                      rel="noopener noreferrer">
                           <img src={link} alt="link" /> Live Preview
                       </a>
                       <a 
                       href={project.site} 
                       className={styles.projectLink}
                       target="_blank" 
-                      rel="noreferrer">
+                      rel="noopener noreferrer">
                           <img src={github} alt="link" /> View Code
                       </a>
                     </span>
