@@ -7,6 +7,12 @@
   --boxShadowMenu: 5px 0px 10px 0px #aaa;
   --linksMenuColor: #fff;
   --linesHamburgue: #333;
+  --projectTextColor: #666666;
+  --projectStacksColor: white;
+  --projectLinkColor: black;
+  --linkSvgColor: black;
+  --informationColor: black;
+  --logoColor: black;
 }
 
 body {

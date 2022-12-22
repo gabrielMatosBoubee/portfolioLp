@@ -35,7 +35,7 @@
 
   .projectTittle {
     font-size: 28px;
-    color: var(--cardTittleColor);
+    color: var(--cardTitleColor);
   }
   
   .projectImg {
@@ -46,10 +46,11 @@
   
   .projectText {
     margin: 5px;
-    color: #666666;
+    color: var(--projectTextColor);
   }
   
   .projectStacks {
+    color: var(--projectStacksColor);
     margin: 5px;
   }
   
@@ -62,10 +63,12 @@
   }
   
   .projectLink {
+    color: var(--projectLinkColor);
     display: flex;
     align-items: center;
   }
   
   .projectLink img {
+    filter: var(--linkSvgColor);
     margin: 10px;
   }
