@@ -11,7 +11,7 @@ function Technologies() {
                     Technologies I've been working with recently
                 </p>
                 <div className={styles.stacks}>
-                {icons.map((icon, index) => <img src={ icon } alt="icon" id={icon}key={index} />)}
+                {icons.map((icon, index) => <img src={ icon } alt="icon" id={`stack${index}`}key={index} />)}
                 </div>
             </section>
     );

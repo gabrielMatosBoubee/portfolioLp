@@ -20,6 +20,10 @@ body {
   background-color: var(--bodyColor);
 }
 
+#stack7 {
+  filter: var(--linkSvgColor);
+}
+
 .App {
   text-align: center;
 }
