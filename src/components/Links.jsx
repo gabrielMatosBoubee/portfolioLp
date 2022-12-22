@@ -5,7 +5,7 @@ import styles from '../styles/Header.module.css'
 function Links() {
     return (
         <>
-          <Link to='/home' className={styles.link}>Home</Link>
+          <Link to='/' className={styles.link}>Home</Link>
           <Link to='/about' className={styles.link}>About</Link> 
           <Link to='/techStacks' className={styles.link}>Tech Stacks</Link> 
           <Link to='/projects' className={styles.link}>Projects</Link>

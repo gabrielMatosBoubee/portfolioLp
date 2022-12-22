@@ -3,7 +3,6 @@ import './App.css';
 import MainPage from './components/MainPage';
 import {BrowserRouter, Route} from 'react-router-dom'
 import Layout from './components/Layout';
-import Home from './components/Home';
 import Technologies from './components/Technologies';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -14,7 +13,6 @@ function App() {
     <BrowserRouter>
       <div>
       <Route exact path='/' component={ MainPage } />
-      <Route path='/home'render={ () => (<Layout><Home /></Layout>) } /> 
       <Route path='/about' render={ () => (<Layout><About /></Layout>) } />
       <Route path='/techStacks' render={ () => (<Layout><Technologies /></Layout>) } />
       <Route path='/projects' render={() => (<Layout><Projects /></Layout>)} />

@@ -26,8 +26,6 @@
    }
    
    .img {
-     max-height: 300px;
-     max-width: 300px;
      height: 300px;
      width: 300px;
      border-radius: 175px;
@@ -36,3 +34,17 @@
      border-image: linear-gradient(180deg, #E70FAA, #00C0FD) 1;
      background: linear-gradient(#E70FAA, #00C0FD);
    }
+
+   @media (max-width: 350px) {
+     .img {
+      height: 200px;
+      width: 200px;
+     }
+   }
+
+   @media (max-width: 250px) {
+    .img {
+     height: 100px;
+     width: 100px;
+    }
+  }
