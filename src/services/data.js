@@ -20,14 +20,14 @@ const data = [{
   }, { 
     image: tryunfo,
     title: 'The Tryunfo',
-    text: `This was my second project using react. I undestood how complex an app could be using only prop driling.`,
+    text: `This was my second project using react. I understood how complex an app could be using only prop driling.`,
     stacks: 'HTML, CSS, JavaScript, React and RTL.',
     site: 'https://frontend-tryunfo.vercel.app/',
     repositor: 'https://github.com/gabrielMatosBoubee/frontend-tryunfo'
   }, { 
     image: TFC,
     title: 'Trybe Futebol Clube',
-    text: `This was my last project using SQL in trybe. I did this project using POO and its help me to undertood sequelize better.`,
+    text: `This was my last project using SQL in trybe. I did this project using POO and its help me to understood sequelize better.`,
     stacks: 'JavaScript, TypeScript, Node.js, Express, SQL, MySql, Sequelize, JWT, Mocha, Chai, ChaiHTTP and Stub.',
     site: 'https://frontend-tryunfo.vercel.app/',
     repositor: 'https://github.com/gabrielMatosBoubee/frontend-tryunfo'
