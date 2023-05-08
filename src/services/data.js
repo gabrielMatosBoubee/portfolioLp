@@ -1,6 +1,7 @@
 import triviaImg from '../Imagens/triviaGameImg.png'
 import codeLeapImg from '../Imagens/CodeLeapImg.png'
 import tryunfo from '../Imagens/tryunfoImg.png'
+import TFC from '../Imagens/TFC.png'
 
 const data = [{ 
     image: triviaImg,
@@ -23,6 +24,14 @@ const data = [{
     stacks: 'HTML, CSS, JavaScript, React and RTL.',
     site: 'https://frontend-tryunfo.vercel.app/',
     repositor: 'https://github.com/gabrielMatosBoubee/frontend-tryunfo'
-  }]
+  }, { 
+    image: TFC,
+    title: 'Trybe Futebol Clube',
+    text: `This was my last project using SQL in trybe. I did this project using POO and its help me to undertood sequelize better.`,
+    stacks: 'JavaScript, TypeScript, Node.js, Express, SQL, MySql, Sequelize, JWT, Mocha, Chai, ChaiHTTP and Stub.',
+    site: 'https://frontend-tryunfo.vercel.app/',
+    repositor: 'https://github.com/gabrielMatosBoubee/frontend-tryunfo'
+  }
+]
 
 export default data;
