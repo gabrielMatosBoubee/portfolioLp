@@ -10,6 +10,18 @@ const data = [
     organization: 'Trybe',
     period: 'Sep 2022 - Dec 2022',
     time: 'Full Time',    
+},
+{
+    title: 'Web developer back-end',
+    organization: 'Trybe',
+    period: 'Jan 2023 - Mai 2023',
+    time: 'Full Time',
+},
+{
+    title: 'JavaScript Algorithms and Data Structures',
+    organization: 'FreeCodeCamp',
+    period: 'Dec 2022 - Jan 2023',
+    time: '300 Hours',
 }
 ]
 

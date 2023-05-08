@@ -17,15 +17,19 @@ function About() {
                and I enjoy learning it every day.
             </p>
             <p className={styles.AboutText}>
-                Along this path, I have learned some stacks for web development 
-                such as HTML, CSS, Javascript, Jest, React, RTL, Redux, Git, 
-                Github and deploy the projects with Vercel.
+            Furthermore, I have experience with various front-end technologies: React | React Router | Redux | Vercel | Figma | HTML5 | CSS3.
+            </p>
+            <p className={styles.AboutText}>
+            On the back-end, I am familiar with: Node.js | SQL | Express | Sequelize | MongoDb | JWT.
+            </p>
+            <p className={styles.AboutText}>
+            I also possess skills in testing with: Jest | RTL | Mocha | Chai.
             </p>
             </section>
             <section>
               <h2 className={styles.title}>Education</h2>
-              {data.map((element) => (
-                <div className={styles.infoEduContainer}>
+              {data.map((element, index) => (
+                <div className={styles.infoEduContainer} key={index}>
                     <section className={styles.infoEdu}>
                     <span>
                       <h3 className={styles.titleEdu}>{element.title}</h3>
