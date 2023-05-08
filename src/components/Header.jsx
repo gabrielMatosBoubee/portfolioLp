@@ -52,7 +52,7 @@ function Header() {
     root.setProperty('--projectTextColor', '#666666')
     root.setProperty('--projectStacksColor', 'white')
     root.setProperty('--projectLinkColor', 'black')
-    root.setProperty('--linkSvgColor', '')
+    root.setProperty('--linkSvgColor', 'white')
     root.setProperty('--informationColor', 'black')
     root.setProperty('--logoColor', 'black')
     localStorage.setItem('theme', 'white')
