@@ -31,7 +31,7 @@ function Projects() {
                           <img src={link} alt="link" /> Live Preview
                       </a>
                       <a 
-                      href={project.site} 
+                      href={project.repositor} 
                       className={styles.projectLink}
                       target="_blank" 
                       rel="noopener noreferrer">
