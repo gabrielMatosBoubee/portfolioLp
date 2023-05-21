@@ -22,9 +22,16 @@ import mongose from './mongose 1.svg'
 import RTL from './testing-library.svg'
 
 const data = [
-    html, css, git, vscode, github, javaScript, typeScript, 
-    nodeJS, react, redux, bootstrap, sql,
-    docker, jwt, sequelize, mongoDb, express,
-    mongose, RTL, chai, mocha, jest]
+    { icon: html, name: "HTML5" }, { icon: css, name: "CSS3" }, 
+    { icon: git, name: "Git"}, { icon: vscode, name: "Vscode" }, 
+    { icon: github, name: "GitHub" }, { icon: javaScript, name: "JavaScript" }, 
+    { icon: typeScript, name: "TypeScript" }, { icon: nodeJS, name: "Node.js"},
+    { icon: react, name: "React" }, { icon: redux, name: "Redux" },
+    { icon: bootstrap, name: "Bootstrap" }, { icon: sql, name: "SQL" },
+    { icon: docker, name: "Docker" }, { icon: jwt, name: "JWT"}, 
+    { icon: sequelize, name: "Sequelize" }, { icon: mongoDb, name: "MongoDB" },
+    { icon: express, name: "Express" }, { icon: mongose, name: "Mongose" },
+    { icon: RTL, name: "React Testing Library" }, { icon: chai, name: "Chai" }, 
+    { icon: mocha, name: "Mocha" }, { icon: jest, name: "Jest" }]
 
 export default data;

@@ -52,7 +52,7 @@
   }
   
   .projectStacks {
-    color: var(--projectStacksColor);
+    color: var(--projectTextColor);
     margin: 5px;
   }
   
