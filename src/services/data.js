@@ -3,6 +3,7 @@ import codeLeapImg from '../Imagens/CodeLeapImg.png'
 import tryunfo from '../Imagens/tryunfoImg.png'
 import TFC from '../Imagens/TFC.png'
 import fullStore from "../Imagens/fullStore.png"
+import hackthonVisa from "../Imagens/hackthonVisa.png"
 
 const data = [{ 
     image: triviaImg,
@@ -40,6 +41,13 @@ const data = [{
     site: "https://github.com/gabrielMatosBoubee/full-store",
     repositor: "https://github.com/gabrielMatosBoubee/full-store"
 
+  }, {
+    image: hackthonVisa,
+    title: "Hackthon Visa",
+    text: `I developed this MVP project in one Hackthon. My team tried to bring a funny game to learn how to invest.`,
+    stacks: "HTML, CSS, TypeScript, React, Vite, ContextApi and styledComponents",
+    site: "https://hackathon-visa-5yhl-ot4fzp0b9-gabrielmatosboubee.vercel.app/",
+    repositor: "https://github.com/gabrielMatosBoubee/hackathon-visa"
   }
 ]
 
