@@ -38,7 +38,7 @@ const data = [{
     title: "Full-Store",
     text: `This was the project I use the most things I learn in this journey. I did the back-end, front-end, the desing and the rules. I'm developing this project.`,
     stacks: 'JavaScript, TypeScript, Node.js, Express, SQL, MySql, Sequelize, JWT, Mocha, Chai, ChaiHTTP, Stub, HTML, CSS, Axios, styledComponents, React, RTL, OAUTH2 and redux.',
-    site: "https://github.com/gabrielMatosBoubee/full-store",
+    site: "https://full-store-two.vercel.app/",
     repositor: "https://github.com/gabrielMatosBoubee/full-store"
 
   }, {
