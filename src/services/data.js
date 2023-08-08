@@ -2,6 +2,7 @@ import triviaImg from '../Imagens/triviaGameImg.png'
 import codeLeapImg from '../Imagens/CodeLeapImg.png'
 import tryunfo from '../Imagens/tryunfoImg.png'
 import TFC from '../Imagens/TFC.png'
+import fullStore from "../Imagens/fullStore.png"
 
 const data = [{ 
     image: triviaImg,
@@ -31,6 +32,14 @@ const data = [{
     stacks: 'JavaScript, TypeScript, Node.js, Express, SQL, MySql, Sequelize, JWT, Mocha, Chai, ChaiHTTP and Stub.',
     site: 'https://frontend-tryunfo.vercel.app/',
     repositor: 'https://github.com/gabrielMatosBoubee/frontend-tryunfo'
+  }, {
+    image: fullStore,
+    title: "Full-Store",
+    text: `This was the project I use the most things I learn in this journey. I did the back-end, front-end, the desing and the rules. I'm developing this project.`,
+    stacks: 'JavaScript, TypeScript, Node.js, Express, SQL, MySql, Sequelize, JWT, Mocha, Chai, ChaiHTTP, Stub, HTML, CSS, Axios, styledComponents, React, RTL, OAUTH2 and redux.',
+    site: "https://github.com/gabrielMatosBoubee/full-store",
+    repositor: "https://github.com/gabrielMatosBoubee/full-store"
+
   }
 ]
 
